@@ -57,7 +57,7 @@ import './Projects.css';
                          <p>{items.lang}</p>
                         </div>
                         <div>
-                          <div className='project_img' style={{backgroundImage:`url(${items.url})`}} >
+                          <div className='project_img' style={{backgroundImage: "url(/src/assets/img10.png)"}} >
                             </div>
                         </div>
                 </div></a>))}
