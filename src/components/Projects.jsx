@@ -9,7 +9,7 @@ import './Projects.css'
         title:"RESPONSIVE MUSIC WEBAPP",
         body:"Developed a fully responsive music web application featuring created playlists with full media playback functionality including play, pause, next, and previous track controls.",
         lang:"HTML,CSS and JAVASCRIPT",
-        url:"url(/src/assets/img10.png)"
+        url:"url(../src/assets/img10.png)"
     },
      {
         link:"https://saiganesh-pitta.github.io/SAIshoes.in/",
