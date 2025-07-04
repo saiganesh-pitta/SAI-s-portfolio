@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import './Projects.css'
+import img10 from "./src/assets/img10.png"
+import img11 from "../src/assets/img11.png"
 
  const Projects=()=>{
 
@@ -9,14 +11,14 @@ import './Projects.css'
         title:"RESPONSIVE MUSIC WEBAPP",
         body:"Developed a fully responsive music web application featuring created playlists with full media playback functionality including play, pause, next, and previous track controls.",
         lang:"HTML,CSS and JAVASCRIPT",
-        url:"url(./src/assets/img10.png)"
+        url:`${img10}`
     },
      {
         link:"https://saiganesh-pitta.github.io/SAIshoes.in/",
         title:"SHOE SHOPPING WEBSITE",
         body:"Designed and developed a fully responsive static website for a fictional shoe store using HTML and CSS.",
         lang:"HTML, CSS and JAVASCRIPT",
-        url:"url(./assets/img11.png)"
+        url:`${img11}`
     },
     {
         link:"https://media-sharing.netlify.app/",
@@ -57,7 +59,7 @@ import './Projects.css'
                          <p>{items.lang}</p>
                         </div>
                         <div>
-                          <div className='project_img' style={{backgroundImage:`${items.url}`}} >
+                          <div className='project_img' style={{backgroundImage:`url(${items.url})`}} >
                             </div>
                         </div>
                 </div></a>))}
