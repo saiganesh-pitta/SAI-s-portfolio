@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Projects.css'
-import img10 from "./src/assets/img10.png"
+import img10 from "../assets/img10.png"
 import img11 from "../src/assets/img11.png"
 
  const Projects=()=>{
