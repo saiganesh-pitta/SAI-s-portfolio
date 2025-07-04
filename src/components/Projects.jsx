@@ -22,33 +22,33 @@ import pic6 from "../assets/img14.png"
         title:"SHOE SHOPPING WEBSITE",
         body:"Designed and developed a fully responsive static website for a fictional shoe store using HTML and CSS.",
         lang:"HTML, CSS and JAVASCRIPT",
-        url:`${pic1}`
+        url:`${pic2}`
     },
     {
         link:"https://media-sharing.netlify.app/",
         title:"MEDIA SHARING PLATFORM",
         body:"Post creation with real-time UI updates.Like functionality to interact with posts. Delete option to remove unwanted posts.Fetch posts from a dummy REST API and render dynamically using React state management.",
         lang:"REACT JS, BOOTSTRAP, CSS, RESTFUL API",
-        url:`${pic2}`
+        url:`${pic3}`
     },
     {
         link:"https://saiganesh-pitta.github.io/Currency-Converter/",
         title:"CURRENCY- CONVERTER WEB APP",
         body:"Developed a responsive web application to convert currencies using real-time exchange rates from a third-party API Integrated external RESTful API to fetch and display live currency exchange data.",
         lang:"HTML, CSS, JAVASCRIPT, RESTFUL API",
-        url:`${pic3}`
+        url:`${pic4}`
     },
     {
         link:"https://saiganesh-pitta.github.io/To.DoList/",
         title:"TO-DO LIST WEBAPP",
         body:"Built a responsive To-Do List web app using HTML, CSS, and JavaScript with task management, mark-as-complete, and Dark Mode toggle.Added smooth transitions between light and dark themes and used localStorage to persist tasks and user preferences.",
-        url:`${pic4}`
+        url:`${pic5}`
     },
     {
         link:"https://saiganesh-pitta.github.io/tic-tac-toe/",
         title:"TIC-TAC-TOE GAME",
         body:"Developed a browser-based Tic Tac Toe game using JavaScript logic to handle player turns, win conditions, and game resets.",
-        url:`${pic5}`
+        url:`${pic6}`
     },
 ])
 
