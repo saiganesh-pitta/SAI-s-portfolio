@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Projects.css'
-import img10 from "../assets/img10.png"
-import img11 from "../src/assets/img11.png"
+import img10 from "/assets/img10.png"
+import img11 from "/src/assets/img11.png"
 
  const Projects=()=>{
 
@@ -25,7 +25,7 @@ import img11 from "../src/assets/img11.png"
         title:"MEDIA SHARING PLATFORM",
         body:"Post creation with real-time UI updates.Like functionality to interact with posts. Delete option to remove unwanted posts.Fetch posts from a dummy REST API and render dynamically using React state management.",
         lang:"REACT JS, BOOTSTRAP, CSS, RESTFUL API",
-        url:"url(/src/assets/img15.png)"
+        url:"/src/assets/img15.png"
     },
     {
         link:"https://saiganesh-pitta.github.io/Currency-Converter/",
