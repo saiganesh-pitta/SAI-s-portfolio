@@ -23,7 +23,7 @@
     z-index: 1;
     top: -40%;
     left: 32%;
-    /* animation: moon 13s linear infinite ; */
+   animation: moon 13s linear infinite ; 
     border-radius: 50%;
  }
 
