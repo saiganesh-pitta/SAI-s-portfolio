@@ -246,6 +246,9 @@
     width: 30vmin;
     top: 0%
   }
+   .mobile_whatsapp {
+       z-index:3;
+   }
   .navbar {
     display: flow-root;
     height: 23vmin;
