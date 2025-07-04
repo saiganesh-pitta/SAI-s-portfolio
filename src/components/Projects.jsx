@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './Projects.css';
+import pic from "../assets/img10.png"
 
  const Projects=()=>{
 
@@ -9,7 +10,7 @@ import './Projects.css';
         title:"RESPONSIVE MUSIC WEBAPP",
         body:"Developed a fully responsive music web application featuring created playlists with full media playback functionality including play, pause, next, and previous track controls.",
         lang:"HTML,CSS and JAVASCRIPT",
-        url:"/src/assets/img10.png"
+        url:`${pic}`
     },
      {
         link:"https://saiganesh-pitta.github.io/SAIshoes.in/",
@@ -57,8 +58,9 @@ import './Projects.css';
                          <p>{items.lang}</p>
                         </div>
                         <div>
-                          <div className='project_img' style={{backgroundImage: "url(/src/assets/img10.png)"}} >
-                            </div>
+                               <img className='project_img' src={items.url}  />
+{/*                           <div className='project_img' style={{backgroundImage: "url(/src/assets/img10.png)"}} >
+                            </div> */}
                         </div>
                 </div></a>))}
             </div>
