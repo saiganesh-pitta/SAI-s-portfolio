@@ -1,0 +1,67 @@
+
+.Edu_cont {
+    background-image: url(/src/assets/img4.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+.Edu_cont2 {
+    margin-top: 5vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media (max-width:650px){
+  .Edu_cont { height: 150vh; }
+  .Edu_cont2 {height: 150vh;margin-top: -9vmin; }
+  .Edu_img {  margin-top: 15vmin;}
+}
+.Edu_img {
+   width: 50vmin;
+    opacity: 0;
+  transform: translateY(100px);
+  animation: fadeInUp 2s ease-out forwards;
+}
+.Edu_left {
+    height: 50vh;
+    width: 60%;
+    color: white;
+     opacity: 0;
+  transform: translateY(100px);
+  animation: fadeInUp 2s ease-out forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Edu_h1 {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 12vmin;
+  color: rgba(255, 166, 0, 0.863);
+}
+.Edu_h2 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.Edu_h3 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

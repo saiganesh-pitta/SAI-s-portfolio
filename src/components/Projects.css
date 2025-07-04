@@ -1,0 +1,72 @@
+
+
+.project_cont {
+    background-image: url(/src/assets/pic7.jpg);
+   min-height: 75vh;
+    background-size: cover;
+    background-position: center;
+       box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.project_details p {
+  font-weight: 200;
+  font-size: 2.5vmin;
+}
+.project_cont2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+     opacity: 0;
+  transform: translateY(100px);
+  animation: fade 2s ease-out forwards;
+}
+.project_details {
+    border: 2px solid rgb(37, 35, 35);
+   min-height: 25vmin;
+    width: 80vmin;
+    box-sizing: border-box;
+    margin-top: 3vmin;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: left; */
+    padding: 6px;
+   
+}
+
+@keyframes fade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+.project_img {
+    box-sizing: border-box;
+    height: 20vmin;
+    width: 20vmin;
+    background-position: top;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+.line {
+    text-decoration: none;
+}
+.color_title {
+    color: rgba(255, 0, 0, 0.836);
+}
